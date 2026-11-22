@@ -1,0 +1,8 @@
+rule,rows
+raw rows,1067371
+cancellation invoices (C*),19494
+non-product stock codes,134986
+qty<=0 non-cancel,3457
+price<=0,6207
+missing customer,243007
+kept sales lines,911978
