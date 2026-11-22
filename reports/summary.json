@@ -1,0 +1,69 @@
+{
+ "best_forecast": "ma8",
+ "bootstrap": {
+  "total_diff": 2890.137594897589,
+  "ci95_iid": [
+   95.6903506904327,
+   5832.604612159448
+  ],
+  "ci95_block4": [
+   -1110.5136747922877,
+   5961.747419477265
+  ],
+  "weeks_milp_better": 17,
+  "weeks": 26,
+  "diff_last4_weeks": 2486.467013088648,
+  "diff_first22_weeks": 403.6705818089413,
+  "worst_week_diff": -391.4445760608778
+ },
+ "accounting": {
+  "base_stock|naive": {
+   "cash_basis_margin": 279596.5432944974,
+   "revenue_minus_cogs": 279596.5432944973,
+   "gap": 1.1641532182693481e-10,
+   "terminal_inv_value": 10945.465246950609
+  },
+  "milp|naive": {
+   "cash_basis_margin": 285506.94364832214,
+   "revenue_minus_cogs": 285506.94364832214,
+   "gap": 0.0,
+   "terminal_inv_value": 14380.986186063557
+  },
+  "base_stock|ma8": {
+   "cash_basis_margin": 278095.32542268775,
+   "revenue_minus_cogs": 278095.3254226877,
+   "gap": 5.820766091346741e-11,
+   "terminal_inv_value": 9556.921365439766
+  },
+  "milp|ma8": {
+   "cash_basis_margin": 280836.5638124444,
+   "revenue_minus_cogs": 280836.56381244434,
+   "gap": 5.820766091346741e-11,
+   "terminal_inv_value": 10980.401678760623
+  },
+  "oracle": {
+   "cash_basis_margin": 305910.2618471352,
+   "revenue_minus_cogs": 305910.2618471352,
+   "gap": 0.0,
+   "terminal_inv_value": 127.08912315738186
+  }
+ },
+ "z_grid": [
+  0.0,
+  0.25,
+  0.5,
+  0.75,
+  1.0,
+  1.25,
+  1.5,
+  1.75,
+  2.0,
+  2.25,
+  2.5,
+  2.75,
+  3.0
+ ],
+ "sens_worst_gain_pct": 0.595321387902481,
+ "sens_nonoptimal": 0,
+ "sens_max_solve_s": 0.27471256256103516
+}
